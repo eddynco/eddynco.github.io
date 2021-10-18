@@ -558,6 +558,9 @@ a {
     .description {
       padding: 2rem;
       margin-right: 3rem; } }
+  @media only screen and (max-width: 37.75em) {
+    .description {
+      margin-right: 0; } }
 
 .user-reviews {
   flex: 1;
