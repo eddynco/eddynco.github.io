@@ -210,6 +210,8 @@
 // GALLERY
 .gallery {
   display: flex;
+  overflow: hidden;
+  background-color: #000;
 
   &__item {
     @media only screen and (max-width: $bp-small) {
@@ -220,6 +222,15 @@
   &__photo {
     width: 100%;
     display: block;
+
+    transform: scale(1.03);
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 0.7;
+
+    &:hover {
+      transform: scale(1);
+      opacity: 1;
+    }
 
     @media only screen and (max-width: $bp-small) {
       border-radius: 2%;
@@ -281,7 +292,7 @@
   background-color: transparent;
   cursor: pointer;
   transition: all 0.2s;
-  margin: 2rem;
+  margin: 0 2rem 0 0;
 
   & span {
     margin-left: 3px;
@@ -325,6 +336,11 @@
   margin-bottom: 2rem;
 }
 
+.paragraph-big {
+  font-family: 'Montserrat';
+  // font-size: 1.8rem;
+  font-weight: 300;
+}
 /////////////////
 // LIST
 .list {

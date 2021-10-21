@@ -15,3 +15,9 @@ Electrical Engineering
 We perform a wide range of Electrical Engineering Services
 according to client’s requirements, from small electrical repairs
 through to complex new installations.
+
+* eng => civil, mech, elect
+* fac mgt
+* transportation
+* equipment leasing
+
