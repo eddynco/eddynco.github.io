@@ -132,7 +132,7 @@ a {
   margin-top: 10rem !important; }
 
 .logo {
-  height: 3.25rem;
+  height: 5.25rem;
   margin-left: 3rem; }
 
 .company-name {
@@ -337,6 +337,8 @@ a {
       margin-left: 8px; }
   .btn-inline:focus {
     outline: none; }
+  .btn-inline a:visited {
+    color: var(--color-primary); }
 
 @keyframes pulsate {
   0% {
@@ -353,8 +355,8 @@ a {
   margin-bottom: 2rem; }
 
 .paragraph-big {
-  font-family: 'Montserrat';
-  font-weight: 300; }
+  font-family: "Montserrat";
+  font-weight: 400; }
 
 .list {
   list-style: none;
@@ -547,6 +549,10 @@ a {
       width: 100%; } }
 
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  box-shadow: var(--shadow-light);
   font-size: 1.4rem;
   height: 7rem;
   background-color: var(--color-white);

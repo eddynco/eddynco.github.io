@@ -2,7 +2,7 @@
 // LOGO
 
 .logo {
-  height: 3.25rem;
+  height: 5.25rem;
   margin-left: 3rem;
   // display: none;
 }
@@ -311,6 +311,10 @@
   &:focus {
     outline: none;
   }
+
+  & a:visited {
+    color: var(--color-primary);
+  }
 }
 
 @keyframes pulsate {
@@ -337,11 +341,13 @@
 }
 
 .paragraph-big {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   // font-size: 1.8rem;
-  font-weight: 300;
+  font-weight: 400;
 }
+
 /////////////////
+//! Not currently used
 // LIST
 .list {
   list-style: none;
@@ -521,3 +527,6 @@
     top: 0;
   }
 }
+
+//////////////////////
+// SERVICES
