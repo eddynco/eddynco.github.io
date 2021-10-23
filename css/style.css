@@ -135,9 +135,10 @@ a {
   height: 5.25rem;
   margin-left: 3rem; }
 
-.company-name {
+.header__heading {
   text-transform: uppercase;
-  letter-spacing: 0.1rem; }
+  letter-spacing: normal;
+  margin-left: -2rem; }
 
 .search {
   flex: 0 0 40%;
@@ -305,7 +306,11 @@ a {
         font-size: 1.8rem;
         padding: 1.25rem 2rem; } }
   .overview__sub-heading {
-    padding-bottom: 1rem; }
+    margin-top: 2rem;
+    padding: 1rem 0;
+    text-align: center;
+    line-height: 2rem;
+    font-weight: 700; }
   .overview__location {
     font-size: 1.2rem;
     display: flex;
@@ -315,6 +320,15 @@ a {
     height: 1.75rem;
     fill: var(--color-primary);
     margin-right: 0.5rem; }
+
+hr {
+  color: var(--color-primary);
+  margin: auto;
+  height: 4px;
+  width: 43px;
+  font-weight: 500;
+  background: var(--color-primary);
+  border: 0px var(--color-primary); }
 
 .btn-inline {
   border: none;
@@ -356,7 +370,18 @@ a {
 
 .paragraph-big {
   font-family: "Montserrat";
-  font-weight: 400; }
+  font-size: 2.5rem;
+  font-weight: 300; }
+
+.paragraph-small {
+  font-size: 2rem;
+  font-weight: 300; }
+
+.paragraph__margin-bottom {
+  margin-top: 2rem; }
+
+.paragraph-center {
+  text-align: center; }
 
 .list {
   list-style: none;
@@ -382,11 +407,12 @@ a {
     mask-image: url(../img/chevron-thin-right.svg); }
 
 .review {
+  position: sticky;
+  top: 3rem;
   background-color: #fff;
   box-shadow: var(--shadow-light);
   padding: 3rem;
   margin-bottom: 3.5rem;
-  position: relative;
   overflow: hidden; }
   @media only screen and (max-width: 56.25em) {
     .review {
@@ -429,6 +455,13 @@ a {
     font-family: sans-serif;
     z-index: 1; }
 
+.insets__item {
+  background-image: url(/img/welding-services-1.jpg);
+  height: 20rem;
+  background-size: cover;
+  position: sticky;
+  top: 8rem; }
+
 .cta {
   padding: 3.5rem 0;
   text-align: center; }
@@ -444,6 +477,7 @@ a {
 .btn {
   font-size: 1.5rem;
   font-weight: 300;
+  letter-spacing: 1px;
   text-transform: uppercase;
   border-radius: 100px;
   border: none;
@@ -472,6 +506,10 @@ a {
     transform: translateY(100%); }
   .btn:hover .btn__invisible {
     top: 0; }
+  .btn-small {
+    font-size: 1.2rem;
+    padding: 1rem 1.5rem;
+    border-radius: 5px; }
 
 .popup {
   height: 100vh;
