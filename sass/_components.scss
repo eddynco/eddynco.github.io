@@ -264,10 +264,10 @@
   }
 
   &__sub-heading {
-    margin-top: 2rem;
-    padding: 1rem 0;
-    text-align: center;
-    line-height: 2rem;
+    // margin-top: 2rem;
+    // padding: 1rem 0;
+    // text-align: center;
+    line-height: 3rem;
     font-weight: 700;
   }
 
@@ -289,7 +289,7 @@
 //HORIZONTAL LINE
 hr {
   color: var(--color-primary);
-  margin: auto;
+  // margin: auto;
   height: 4px;
   width: 43px;
   font-weight: 500;
@@ -354,18 +354,35 @@ hr {
 /////////////////
 // PARAGRAPH
 .paragraph:not(:last-child) {
-  margin-bottom: 2rem;
+  // margin-bottom: 2rem;
 }
 
-.paragraph-big {
+.paragraph {
   font-family: "Montserrat";
-  font-size: 2.5rem;
-  font-weight: 300;
+
+  &-big {
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 0 2rem 1rem 0;
+  }
+
+  &-medium {
+    font-size: 2.2rem;
+    font-weight: 300;
+  }
+
+  &-small {
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+  }
+
+  &-break {
+    margin-bottom: 2rem;
+  }
 }
 
-.paragraph-small {
-  font-size: 2rem;
-  font-weight: 300;
+.caption {
 }
 
 .paragraph__margin-bottom {
@@ -417,9 +434,6 @@ hr {
 /////////////////
 // REVIEWS
 .review {
-  position: sticky;
-  top: 3rem;
-
   background-color: #fff;
   box-shadow: var(--shadow-light);
   padding: 3rem;
@@ -586,3 +600,77 @@ hr {
 
 //////////////////////
 // SERVICES
+
+///////////////
+// CUSTOMERS
+.customers {
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  // flex-wrap: wrap;
+
+  & > div i {
+    height: 85px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    opacity: 40%;
+    align-items: center;
+  }
+
+  &__four {
+    // width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding: 1rem 0 0 0;
+
+    &--exxonmobil {
+      width: 200px;
+
+      background-image: url(/img/customers/exxon.png);
+    }
+
+    &--universal {
+      width: 180px;
+      background-image: url(/img/customers/universal-energy.png);
+    }
+    &--seaweld {
+      width: 180px;
+      background-image: url(/img/customers/seaweld.png);
+    }
+    &--willbros {
+      width: 90px;
+      background-image: url(/img/customers/willbros.png);
+    }
+    &--hydrodive {
+      width: 200px;
+      background-image: url(/img/customers/hydrodive.jpg);
+    }
+    &--westfield {
+      width: 230px;
+      background-image: url(/img/customers/westfield.png);
+    }
+    &--daewoo {
+      width: 200px;
+      background-image: url(/img/customers/daewoo.png);
+    }
+    &--dredging {
+      width: 150px;
+      background-image: url(/img/customers/dredging.png);
+    }
+  }
+}
+
+.customer-text {
+  text-align: center;
+  margin: 6rem 0 4rem 0;
+}
+
+.hova:hover {
+  background: url(/img/gasflare.jpg);
+  z-index: 999;
+  position: relative;
+}

@@ -23,12 +23,14 @@
   <body>
     <div class="container">
       <header class="header">
-        <img
-          src="/img/logo.png"
-          alt="eddynco logo"
-          class="logo"
-          title="Eddynco Nig Ltd"
-        />
+        <a href="/index.html"
+          ><img
+            src="/img/logo.png"
+            alt="eddynco logo"
+            class="logo"
+            title="Eddynco Nig Ltd"
+          />
+        </a>
         <div class="header__heading">
           <h2 class="header__heading-text">Eddynco Nigeria Limited</h2>
         </div>
@@ -89,7 +91,7 @@
               </a>
             </li>
             <li class="side-nav__item">
-              <a href="#" class="side-nav__link">
+              <a href="about.html" class="side-nav__link">
                 <svg class="side-nav__icon">
                   <use xlink:href="/img/sprite.svg#icon-management"></use>
                 </svg>
@@ -155,17 +157,20 @@
           </div>
           <div class="detail">
             <div class="description">
-              <p class="paragraph paragraph-big">
-                We are an indeginous owned oil and gas company, focused on
-                providing great service.
-              </p>
-              <p class="paragraph paragraph-small">
-                Our solutions promote a proactive approach that provide
-                accountability and assure client satisfaction.
-              </p>
-              <a href="/services.html" class="learn-more"
-                ><button class="btn btn-small">Learn More</button></a
-              >
+              <div class="description__item--left">
+                <p class="paragraph paragraph-big">
+                  We are an indigenous owned oil and gas company, focused on
+                  providing great service.
+                </p>
+                <p class="paragraph paragraph-small">
+                  Our solutions promote a proactive approach that provide
+                  accountability and assure client satisfaction.
+                </p>
+                <a href="/about.html" class="learn-more"
+                  ><button class="btn btn-small">Learn More</button></a
+                >
+              </div>
+              <div class="description__item--right"></div>
               <!-- <ul class="list">
                 <li class="list__item">Lighting Systems</li>
                 <li class="list__item">Power Generation & DIstribution</li>
@@ -181,67 +186,87 @@
                 <li class="list__item">Heating</li>
                 <li class="list__item">CCTV</li>
               </ul> -->
-              <h2 class="overview__sub-heading">Operations</h2>
-              <hr />
-              <p class="paragraph paragraph__margin-bottom paragraph-center">
-                Since incorporation, our primary area of operations has been in
-                and around ExxonMobil Qua Iboe Terminal, Ibeno.
-                <br />
-                In 2020, we strengthened our service portfolio and expanded our
-                operations to ExxonMobil Bonny River Terminal.
-              </p>
             </div>
-            <div class="user-reviews">
-              <div class="overview__location">
-                <svg class="overview__icon-location">
-                  <use xlink:href="/img/sprite.svg#icon-location2"></use>
-                </svg>
-                <button class="btn-inline">
-                  <a
-                    href="https://www.google.com/maps/place/Eddynco%2FToyota/@4.5431536,8.0012761,15z/data=!4m5!3m4!1s0x0:0x9c1fb2dd4bde0b19!8m2!3d4.5431536!4d8.0012761"
-                    >Mkpanak - Ibeno, Akwa Ibom</a
-                  >
-                </button>
+            <div class="description__caption">
+              <div class="description__caption--item">
+                <h2 class="overview__sub-heading">Community Service</h2>
+                <hr />
+                <p class="paragraph paragraph__margin-bottom">
+                  We know that the benefits of
+                  volunteering&#8212;including the impact it has on the
+                  community, bringing happiness to people's lives, learning
+                  valuable job skills, advancing our organizational career,
+                  connecting with our community, people and organizations, and
+                  making it a better place&#8212;are boundless.
+                </p>
+                <a href="/about.html" class="learn-more"
+                  ><button class="btn btn-small">Learn More</button></a
+                >
+                <div class="description__caption--image image-one"></div>
               </div>
-              <figure class="review">
-                <blockquote class="review__text">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Atque soluta accusamus repellat officiis earum incidunt?
-                </blockquote>
-                <figcaption class="review__user">
-                  <img src="/img/NN.jpg" alt="N. N" class="review__photo" />
-                  <div class="review__user-box">
-                    <p class="review__user-name">N. N - Network Exploration</p>
-                    <p class="review__user-date">Oct 23, 2021</p>
-                  </div>
-                  <div class="review__rating">8.1</div>
-                </figcaption>
-              </figure>
-              <figure class="review">
-                <blockquote class="review__text">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Atque soluta accusamus repellat officiis earum incidunt?
-                </blockquote>
-                <figcaption class="review__user">
-                  <img src="/img/user-1.jpg" alt="U. J" class="review__photo" />
-                  <div class="review__user-box">
-                    <p class="review__user-name">U. J - MPN</p>
-                    <p class="review__user-date">Sept 5, 2021</p>
-                  </div>
-                  <div class="review__rating">7.5</div>
-                </figcaption>
-              </figure>
-              <button class="btn-inline">Show all <span>&rarr;</span></button>
+              <div class="description__caption--item">
+                <h2 class="overview__sub-heading">
+                  Health, Safety, and Environment
+                </h2>
+                <hr />
+                <p class="paragraph paragraph__margin-bottom">
+                  We provide Mechanical, Electrical and Civil Maintenance
+                  Services to the IOCs/NOCs in Nigeria oil & gas industry with
+                  high skilled technical personnel specialized in various fields
+                  of engineering maintenance services.
+                </p>
+                <a href="/about.html" class="learn-more"
+                  ><button class="btn btn-small">Learn More</button></a
+                >
+                                <div class="description__caption--image image-two"></div>
+              </div>
+              <div class="description__caption--item">
+                <h2 class="overview__sub-heading">Our Services</h2>
+                <hr />
+                <p class="paragraph paragraph__margin-bottom">
+                  We provide Mechanical, Electrical and Civil Maintenance
+                  Services to the IOCs/NOCs in Nigeria oil & gas industry with
+                  high skilled technical personnel specialized in various fields
+                  of engineering maintenance services.
+                </p>
+                <a href="/about.html" class="learn-more"
+                  ><button class="btn btn-small">Learn More</button></a
+                >
+                                <div class="description__caption--image image-three"></div>
+              </div>
             </div>
           </div>
-          <div Good news! class="cta">
-            <h1 class="cta__book-now">Good news!</h1>
-            <a href="tel:+234-8034434427">
-              <button class="btn">
-                <span class="btn__visible">Call now</span>
-                <span class="btn__invisible">We're ready for you</span>
-              </button>
-            </a>
+
+          <div>
+            <div class="customer-text">
+              <p class="paragraph-medium">
+                Some of the organizations that have entrusted us with their
+                business
+              </p>
+            </div>
+            <div class="customers">
+              <div class="customers__four">
+                <i class="customers__four--exxonmobil"></i>
+                <i class="customers__four--universal"></i>
+                <i class="customers__four--willbros"></i>
+                <i class="customers__four--hydrodive"></i>
+              </div>
+              <div class="customers__four">
+                <i class="customers__four--westfield"></i>
+                <i class="customers__four--seaweld"></i>
+                <i class="customers__four--daewoo"></i>
+                <i class="customers__four--dredging"></i>
+              </div>
+            </div>
+            <div class="cta">
+              <h1 class="cta__book-now">Good news!</h1>
+              <a href="tel:+234-8034434427">
+                <button class="btn">
+                  <span class="btn__visible">Call now</span>
+                  <span class="btn__invisible">We're ready for you</span>
+                </button>
+              </a>
+            </div>
           </div>
         </main>
       </div>

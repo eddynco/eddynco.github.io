@@ -306,10 +306,7 @@ a {
         font-size: 1.8rem;
         padding: 1.25rem 2rem; } }
   .overview__sub-heading {
-    margin-top: 2rem;
-    padding: 1rem 0;
-    text-align: center;
-    line-height: 2rem;
+    line-height: 3rem;
     font-weight: 700; }
   .overview__location {
     font-size: 1.2rem;
@@ -323,7 +320,6 @@ a {
 
 hr {
   color: var(--color-primary);
-  margin: auto;
   height: 4px;
   width: 43px;
   font-weight: 500;
@@ -365,17 +361,21 @@ hr {
     transform: scale(1);
     box-shadow: none; } }
 
-.paragraph:not(:last-child) {
-  margin-bottom: 2rem; }
-
-.paragraph-big {
-  font-family: "Montserrat";
-  font-size: 2.5rem;
-  font-weight: 300; }
-
-.paragraph-small {
-  font-size: 2rem;
-  font-weight: 300; }
+.paragraph {
+  font-family: "Montserrat"; }
+  .paragraph-big {
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 0 2rem 1rem 0; }
+  .paragraph-medium {
+    font-size: 2.2rem;
+    font-weight: 300; }
+  .paragraph-small {
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding-bottom: 1rem; }
+  .paragraph-break {
+    margin-bottom: 2rem; }
 
 .paragraph__margin-bottom {
   margin-top: 2rem; }
@@ -407,8 +407,6 @@ hr {
     mask-image: url(../img/chevron-thin-right.svg); }
 
 .review {
-  position: sticky;
-  top: 3rem;
   background-color: #fff;
   box-shadow: var(--shadow-light);
   padding: 3rem;
@@ -510,6 +508,58 @@ hr {
     font-size: 1.2rem;
     padding: 1rem 1.5rem;
     border-radius: 5px; }
+
+.customers {
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%; }
+  .customers > div i {
+    height: 85px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    opacity: 40%;
+    align-items: center; }
+  .customers__four {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding: 1rem 0 0 0; }
+    .customers__four--exxonmobil {
+      width: 200px;
+      background-image: url(/img/customers/exxon.png); }
+    .customers__four--universal {
+      width: 180px;
+      background-image: url(/img/customers/universal-energy.png); }
+    .customers__four--seaweld {
+      width: 180px;
+      background-image: url(/img/customers/seaweld.png); }
+    .customers__four--willbros {
+      width: 90px;
+      background-image: url(/img/customers/willbros.png); }
+    .customers__four--hydrodive {
+      width: 200px;
+      background-image: url(/img/customers/hydrodive.jpg); }
+    .customers__four--westfield {
+      width: 230px;
+      background-image: url(/img/customers/westfield.png); }
+    .customers__four--daewoo {
+      width: 200px;
+      background-image: url(/img/customers/daewoo.png); }
+    .customers__four--dredging {
+      width: 150px;
+      background-image: url(/img/customers/dredging.png); }
+
+.customer-text {
+  text-align: center;
+  margin: 6rem 0 4rem 0; }
+
+.hova:hover {
+  background: url(/img/gasflare.jpg);
+  z-index: 999;
+  position: relative; }
 
 .popup {
   height: 100vh;
@@ -623,7 +673,6 @@ hr {
 
 .detail {
   font-size: 1.4rem;
-  display: flex;
   padding: 3rem;
   background-color: var(--color-white);
   border-bottom: var(--line); }
@@ -634,19 +683,48 @@ hr {
     .detail {
       flex-direction: column; } }
 
-.description {
-  background-color: #fff;
-  box-shadow: var(--shadow-light);
-  padding: 3rem;
-  flex: 0 0 60%;
-  margin-right: 4.5rem; }
-  @media only screen and (max-width: 56.25em) {
-    .description {
-      padding: 2rem;
-      margin-right: 3rem; } }
-  @media only screen and (max-width: 37.75em) {
-    .description {
-      margin-right: 0; } }
+.description,
+.description__caption {
+  padding: 1.5rem 3rem;
+  display: flex; }
+
+.description__item--left {
+  width: 60%; }
+
+.description__item--right {
+  background-image: url(/img/community-service.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 40%; }
+
+@media only screen and (max-width: 56.25em) {
+  .description {
+    padding: 2rem;
+    margin-right: 3rem; } }
+
+@media only screen and (max-width: 37.75em) {
+  .description {
+    margin-right: 0; } }
+
+.description__caption {
+  padding-top: 10rem;
+  justify-content: space-between; }
+  .description__caption--item {
+    flex: 0 0 30.3%; }
+  .description__caption--image {
+    margin: 2rem 0 0 0;
+    height: 150px;
+    width: 80%;
+    background-size: cover; }
+
+.image-one {
+  background-image: url(/img/planting-community.jpg); }
+
+.image-two {
+  background-image: url(/img/helmet.jpg); }
+
+.image-three {
+  background-image: url(/img/safety-man.jpg); }
 
 .user-reviews {
   flex: 1;

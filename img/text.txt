@@ -5,8 +5,7 @@ We are making our mark in transforming the way business is conducted and our cus
 
 SERVICES AND AREAS OF OPERATION
 
-ENGINEERING SERVICES (CIVIL, MECHANICAL AND ELECTRICAL)
-We provide Mechanical, Electrical and Civil Maintenance Services to the IOCs/NOCs in Nigeria oil & gas industry with high skilled technical personnel specialized in various fields of engineering maintenance services.
+~We provide Mechanical, Electrical and Civil Maintenance Services to the IOCs/NOCs in Nigeria oil & gas industry with high skilled technical personnel specialized in various fields of engineering maintenance services.~
 
 Electrical Engineering
 We perform a wide range of Electrical Engineering Services according to client’s requirements, from small electrical repairs through to complex new installations.
@@ -26,20 +25,6 @@ In 2020, we strengthened our service portfolio and expanded our operations to Ex
 
 With support from our new management, we are focused on developing systems, processes and workforce readiness for effective collaboration with our stakeholders.
 
-XXXX XXX
-EDDYNCO NIGERIA LIMITED has made its mark as a reliable and trust worthy business in Akwa Ibom State. Over the years, public and private sector oganizations, relied on our outstanding services.
-Some of the organisations that have entrusted Eddynco with their business include:
-. ExxonMobil (onshore)
-. Universal Energy (onshore)
-. Seaweld (onshore/offshore)
-. Willbros Nigeria (onshore/offshore)
-. Hydrodive Nigeria (onshore / offshore)
-. Westfield Energy (onshore)
-. Daewoo Nigeria (onshore)
-. Dredging International (onshore)
-
-ENGINEERING SERVICES (CIVIL, MECHANICAL AND ELECTRICAL)
-- We provide Mechanical, Electrical and Civil Maintenance Services to the IOCs/NOCs in Nigeria oil & gas industry with high skilled technical personnel specialized in various fields of engineering maintenance services.
 Electrical Engineering
 We perform a wide range of Electrical Engineering Services
 according to client’s requirements, from small electrical repairs
@@ -101,7 +86,7 @@ Highlights of our maintenance and repair program:
 • A maintenance schedule that eliminates the need for out-of-pocket payments
 • A modern diagnostic workshop
 • Certified representatives who oversee all services and repairs to ensure they are
-both necessary and performed correctly
+both necessary and performed correctly.
 
 Facility Management
 Eddynco offers Integrated Building Operations & Maintenance Management

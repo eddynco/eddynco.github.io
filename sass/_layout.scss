@@ -60,7 +60,7 @@
 
 .detail {
   font-size: 1.4rem;
-  display: flex;
+
   padding: 3rem;
   background-color: var(--color-white);
   border-bottom: var(--line);
@@ -74,12 +74,25 @@
   }
 }
 
+.description,
+.description__caption {
+  padding: 1.5rem 3rem;
+  display: flex;
+}
+
 .description {
-  background-color: #fff;
-  box-shadow: var(--shadow-light);
-  padding: 3rem;
-  flex: 0 0 60%;
-  margin-right: 4.5rem;
+  // flex: 0 0 60%;
+
+  &__item--left {
+    width: 60%;
+  }
+
+  &__item--right {
+    background-image: url(/img/community-service.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+  }
 
   @media only screen and (max-width: $bp-medium) {
     padding: 2rem;
@@ -91,8 +104,38 @@
   }
 }
 
-.user-reviews {
+.description__caption {
+  padding-top: 10rem;
+  justify-content: space-between;
 
+  &--item {
+    flex: 0 0 30.3%;
+  }
+
+  &--image {
+    margin: 2rem 0 0 0;
+    height: 150px;
+    width: 80%;
+
+    background-size: cover;
+  }
+}
+
+.image-one {
+
+  background-image: url(/img/planting-community.jpg);
+}
+
+.image-two {
+
+  background-image: url(/img/helmet.jpg);
+}
+
+.image-three {
+  background-image: url(/img/safety-man.jpg);
+}
+
+.user-reviews {
   flex: 1;
 
   display: flex;
