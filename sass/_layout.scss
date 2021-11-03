@@ -88,10 +88,11 @@
   }
 
   &__item--right {
-    background-image: url(/img/community-service.jpg);
+    background-image: url(/img/onshore-2.jpg);
     background-position: center;
     background-size: cover;
     width: 40%;
+    height: 250px;
   }
 
   @media only screen and (max-width: $bp-medium) {
@@ -103,6 +104,8 @@
     margin-right: 0;
   }
 }
+
+
 
 .description__caption {
   padding-top: 10rem;
@@ -122,12 +125,10 @@
 }
 
 .image-one {
-
   background-image: url(/img/planting-community.jpg);
 }
 
 .image-two {
-
   background-image: url(/img/helmet.jpg);
 }
 
@@ -136,9 +137,13 @@
 }
 
 .user-reviews {
+  justify-content: space-evenly;
   flex: 1;
-
   display: flex;
-  flex-direction: column;
+  // flex-direction: column;
   align-items: center;
+}
+
+.review__rating {
+
 }
