@@ -305,7 +305,8 @@ a {
       .overview__heading {
         font-size: 1.8rem;
         padding: 1.25rem 2rem; } }
-  .overview__sub-heading {
+  .overview__sub-heading,
+  .overview .sub-description__heading--text {
     line-height: 3rem;
     font-weight: 700; }
   .overview__location {
@@ -325,6 +326,8 @@ hr {
   font-weight: 500;
   background: var(--color-primary);
   border: 0px var(--color-primary); }
+  hr.sub-description--hr {
+    margin: auto; }
 
 .btn-inline {
   border: none;
@@ -381,6 +384,9 @@ hr {
 
 .padding-lf-rt {
   padding: 0.5rem 1rem; }
+
+.padding-big-rt {
+  padding: 0 0 4rem 0; }
 
 .paragraph__margin-bottom {
   margin-top: 2rem; }
@@ -571,6 +577,26 @@ hr {
       .customers__logos--four--dredging {
         width: 150px;
         background-image: url(/img/customers/dredging.png); }
+
+.sub-description {
+  padding: 0 3rem; }
+  .sub-description__heading {
+    text-align: center;
+    padding: 3rem; }
+    .sub-description__heading--text {
+      padding: 1rem; }
+  .sub-description__body {
+    display: flex; }
+    .sub-description__body--text {
+      width: 60%;
+      padding: 0 5rem 0 0; }
+    .sub-description__body--img {
+      background-image: url(/img/bus-shuttle.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 275px;
+      width: 412px;
+      border: 1rem solid var(--color-primary-mid); }
 
 .popup {
   height: 100vh;

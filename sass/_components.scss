@@ -263,7 +263,8 @@
     }
   }
 
-  &__sub-heading {
+  &__sub-heading,
+  .sub-description__heading--text {
     // margin-top: 2rem;
     // padding: 1rem 0;
     // text-align: center;
@@ -295,6 +296,10 @@ hr {
   font-weight: 500;
   background: var(--color-primary);
   border: 0px var(--color-primary);
+
+  &.sub-description--hr {
+    margin: auto;
+  }
 }
 
 /////////////////
@@ -387,6 +392,10 @@ hr {
 
 .padding-lf-rt {
   padding: 0.5rem 1rem;
+}
+
+.padding-big-rt {
+  padding: 0 0 4rem 0;
 }
 
 .paragraph__margin-bottom {
@@ -703,6 +712,39 @@ hr {
         width: 150px;
         background-image: url(/img/customers/dredging.png);
       }
+    }
+  }
+}
+
+///////////////////////
+// SUB-DESCRIPTION
+.sub-description {
+  padding: 0 3rem;
+
+  &__heading {
+    text-align: center;
+    padding: 3rem;
+
+    &--text {
+      padding: 1rem;
+    }
+  }
+
+  &__body {
+    display: flex;
+
+    &--text {
+      width: 60%;
+      padding: 0 5rem 0 0;
+    }
+
+    &--img {
+      background-image: url(/img/bus-shuttle.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 275px;
+      width: 412px;
+      border: 1rem solid var(--color-primary-mid);
     }
   }
 }
