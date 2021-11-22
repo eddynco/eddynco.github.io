@@ -297,18 +297,16 @@ a {
   .overview__heading {
     margin-right: auto;
     font-size: 2.25rem;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-weight: 400;
     letter-spacing: 1px;
     padding: 1.5rem 3rem; }
     @media only screen and (max-width: 37.75em) {
       .overview__heading {
         font-size: 1.8rem;
         padding: 1.25rem 2rem; } }
-  .overview__sub-heading,
-  .overview .sub-description__heading--text {
+  .overview__sub-heading {
     line-height: 3rem;
-    font-weight: 700; }
+    font-weight: 400; }
   .overview__location {
     font-size: 1.2rem;
     display: flex;
@@ -319,11 +317,14 @@ a {
     fill: var(--color-primary);
     margin-right: 0.5rem; }
 
+.sub-description__heading--text {
+  line-height: 3rem;
+  font-weight: 400; }
+
 hr {
   color: var(--color-primary);
   height: 4px;
   width: 43px;
-  font-weight: 500;
   background: var(--color-primary);
   border: 0px var(--color-primary); }
   hr.sub-description--hr {
@@ -375,7 +376,7 @@ hr {
     font-weight: 300; }
   .paragraph-small {
     font-size: 1.6rem;
-    font-weight: 400; }
+    font-weight: 300; }
   .paragraph-break {
     margin-bottom: 2rem; }
 
@@ -394,6 +395,16 @@ hr {
 .paragraph-center {
   text-align: center; }
 
+.three-columned {
+  padding: 3rem 0;
+  column-count: 3;
+  column-gap: 4rem;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto; }
+  .three-columned__item {
+    padding-bottom: 1.5rem; }
+
 .list {
   list-style: none;
   margin: 2rem 0;
@@ -403,8 +414,7 @@ hr {
   display: flex;
   flex-wrap: wrap; }
   .list__item {
-    flex: 0 0 50%;
-    margin-bottom: 0.7rem; }
+    column-count: 3; }
   .list__item::before {
     content: "";
     display: inline-block;
@@ -590,13 +600,16 @@ hr {
     .sub-description__body--text {
       width: 60%;
       padding: 0 5rem 0 0; }
-    .sub-description__body--img {
-      background-image: url(/img/bus-shuttle.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
+    .sub-description__body--img--one, .sub-description__body--img--two {
       height: 275px;
       width: 412px;
-      border: 1rem solid var(--color-primary-mid); }
+      border: 2rem solid var(--color-primary-light);
+      background-size: cover;
+      background-repeat: no-repeat; }
+    .sub-description__body--img--one {
+      background-image: url(/img/bus-shuttle.jpg); }
+    .sub-description__body--img--two {
+      background-image: url(/img/safety.jpg); }
 
 .popup {
   height: 100vh;

@@ -252,8 +252,8 @@
     margin-right: auto;
 
     font-size: 2.25rem;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-weight: 400;
+    // text-transform: uppercase;
     letter-spacing: 1px;
     padding: 1.5rem 3rem;
 
@@ -263,13 +263,12 @@
     }
   }
 
-  &__sub-heading,
-  .sub-description__heading--text {
+  &__sub-heading {
     // margin-top: 2rem;
     // padding: 1rem 0;
     // text-align: center;
     line-height: 3rem;
-    font-weight: 700;
+    font-weight: 400;
   }
 
   &__location {
@@ -286,6 +285,13 @@
   }
 }
 
+.sub-description__heading--text {
+  // margin-top: 2rem;
+  // padding: 1rem 0;
+  // text-align: center;
+  line-height: 3rem;
+  font-weight: 400;
+}
 ///////////////////
 //HORIZONTAL LINE
 hr {
@@ -293,7 +299,6 @@ hr {
   // margin: auto;
   height: 4px;
   width: 43px;
-  font-weight: 500;
   background: var(--color-primary);
   border: 0px var(--color-primary);
 
@@ -378,7 +383,7 @@ hr {
 
   &-small {
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 300;
   }
 
   &-break {
@@ -407,7 +412,21 @@ hr {
 }
 
 /////////////////
-//! Not currently used anywhere
+
+// THREE-COLUMNED
+.three-columned {
+  padding: 3rem 0;
+  column-count: 3;
+  column-gap: 4rem;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+
+  &__item {
+    padding-bottom: 1.5rem;
+  }
+}
+
 // LIST
 .list {
   list-style: none;
@@ -419,8 +438,10 @@ hr {
   flex-wrap: wrap;
 
   &__item {
-    flex: 0 0 50%;
-    margin-bottom: 0.7rem;
+    column-count: 3;
+    // flex: 0 0 30%;
+    // margin-bottom: 0.7rem;
+    // justify-content: space-around;
   }
 
   &__item::before {
@@ -716,6 +737,9 @@ hr {
   }
 }
 
+.community {
+}
+
 ///////////////////////
 // SUB-DESCRIPTION
 .sub-description {
@@ -739,12 +763,22 @@ hr {
     }
 
     &--img {
-      background-image: url(/img/bus-shuttle.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 275px;
-      width: 412px;
-      border: 1rem solid var(--color-primary-mid);
+      &--one,
+      &--two {
+        height: 275px;
+        width: 412px;
+        border: 2rem solid var(--color-primary-light);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      &--one {
+        background-image: url(/img/bus-shuttle.jpg);
+      }
+
+      &--two {
+        background-image: url(/img/safety.jpg);
+      }
     }
   }
 }
