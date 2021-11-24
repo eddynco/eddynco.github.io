@@ -766,7 +766,18 @@ hr {
     margin: 2rem 0 0 0;
     height: 150px;
     width: 80%;
+    color: #fff;
+    position: relative;
     background-size: cover; }
+    .description__caption--image:hover .overlay {
+      opacity: 1;
+      bottom: 0;
+      padding: 10px;
+      text-align: center;
+      margin: auto;
+      position: absolute;
+      background: rgba(0, 0, 0, 0.5);
+      width: 100%; }
 
 .image-one {
   background-image: url(/img/community-planter.jpg); }
@@ -801,6 +812,9 @@ hr {
 
 .img-serv-8 {
   background-image: url(/img/fac-mgt.jpg); }
+
+.overlay {
+  opacity: 0; }
 
 .user-reviews {
   justify-content: space-evenly;
