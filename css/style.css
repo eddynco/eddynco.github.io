@@ -769,13 +769,38 @@ hr {
     background-size: cover; }
 
 .image-one {
-  background-image: url(/img/planting-community.jpg); }
+  background-image: url(/img/community-planter.jpg); }
 
 .image-two {
   background-image: url(/img/helmet.jpg); }
 
 .image-three {
   background-image: url(/img/safety-man.jpg); }
+
+.img-serv-1 {
+  background-image: url(/img/elect-man.jpg); }
+
+.img-serv-2 {
+  background-image: url(/img/mech-man.jpg); }
+
+.img-serv-3 {
+  background-image: url(/img/civ-man.jpg); }
+
+.img-serv-4 {
+  background-image: url(/img/hr-mgt.png);
+  background-position: center; }
+
+.img-serv-5 {
+  background-image: url(/img/heavy-equip.jpg); }
+
+.img-serv-6 {
+  background-image: url(/img/ind-mat.jpg); }
+
+.img-serv-7 {
+  background-image: url(/img/coaster-buses.jpg); }
+
+.img-serv-8 {
+  background-image: url(/img/fac-mgt.jpg); }
 
 .user-reviews {
   justify-content: space-evenly;
