@@ -62,7 +62,7 @@ html {
       font-size: 50%; } }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.6;
   background-image: linear-gradient(to right bottom, var(--color-primary-mid), var(--color-primary));
@@ -427,6 +427,18 @@ hr {
     mask-size: cover;
     mask-image: url(../img/chevron-thin-right.svg); }
 
+li.margin-left {
+  margin: 0 0 0 1.2rem; }
+
+.two-col-list {
+  list-style: square;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 6rem; }
+  .two-col-list__item {
+    flex: 0 0 50%;
+    padding: 0 1rem; }
+
 .reviews {
   margin: 5rem 0; }
   .reviews__google:link, .reviews__google:visited {
@@ -588,8 +600,11 @@ hr {
         width: 150px;
         background-image: url(/img/customers/dredging.png); }
 
+.sub-description-container {
+  padding: 0 0 4rem 0; }
+
 .sub-description {
-  padding: 0 3rem; }
+  padding: 0 3rem 2rem 3rem; }
   .sub-description__heading {
     text-align: center;
     padding: 3rem; }
@@ -600,7 +615,7 @@ hr {
     .sub-description__body--text {
       width: 60%;
       padding: 0 5rem 0 0; }
-    .sub-description__body--img--one, .sub-description__body--img--two {
+    .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mtnce {
       height: 275px;
       width: 412px;
       border: 2rem solid var(--color-primary-light);
@@ -610,6 +625,12 @@ hr {
       background-image: url(/img/bus-shuttle.jpg); }
     .sub-description__body--img--two {
       background-image: url(/img/safety.jpg); }
+    .sub-description__body--img--fac {
+      background-image: url(/img/fac-mgt.jpg); }
+    .sub-description__body--img--tp {
+      background-image: url(/img/coaster-buses.jpg); }
+    .sub-description__body--img--mtnce {
+      background-image: url(/img/maintenance-repair.jpg); }
 
 .popup {
   height: 100vh;
@@ -812,6 +833,9 @@ hr {
 
 .img-serv-8 {
   background-image: url(/img/fac-mgt.jpg); }
+
+.img-serv-9 {
+  background-image: url(/img/maintenance-repair.jpg); }
 
 .overlay {
   opacity: 0; }
