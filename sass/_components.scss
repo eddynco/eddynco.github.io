@@ -12,7 +12,7 @@
 .header__heading {
   text-transform: uppercase;
   letter-spacing: normal;
-  margin-left: -2rem;
+  // margin-left: -2rem;
 }
 
 /////////////////
@@ -302,9 +302,14 @@ hr {
   background: var(--color-primary);
   border: 0px var(--color-primary);
 
+  // USE IN MOBILE VIEW
   &.sub-description--hr {
     margin: auto;
   }
+}
+
+h2.f-h {
+  font-weight: 500;
 }
 
 /////////////////
@@ -794,7 +799,6 @@ li.margin-left {
         border: 2rem solid var(--color-primary-light);
         background-size: cover;
         background-repeat: no-repeat;
-        
       }
 
       &--one {

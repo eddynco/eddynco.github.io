@@ -137,8 +137,7 @@ a {
 
 .header__heading {
   text-transform: uppercase;
-  letter-spacing: normal;
-  margin-left: -2rem; }
+  letter-spacing: normal; }
 
 .search {
   flex: 0 0 40%;
@@ -329,6 +328,9 @@ hr {
   border: 0px var(--color-primary); }
   hr.sub-description--hr {
     margin: auto; }
+
+h2.f-h {
+  font-weight: 500; }
 
 .btn-inline {
   border: none;
