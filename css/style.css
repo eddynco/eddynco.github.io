@@ -370,7 +370,7 @@ h2.f-h {
 .paragraph {
   font-family: "Montserrat"; }
   .paragraph-big {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     font-weight: 300;
     padding-bottom: 3rem; }
   .paragraph-medium {
@@ -781,7 +781,6 @@ li.margin-left {
     margin-right: 0; } }
 
 .description__caption {
-  padding-top: 10rem;
   justify-content: space-between; }
   .description__caption--item {
     flex: 0 0 30.3%; }
