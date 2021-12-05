@@ -287,6 +287,9 @@ a {
     @media only screen and (max-width: 37.75em) {
       .gallery__photo {
         border-radius: 2%; } }
+  @media only screen and (max-width: 31.25em) {
+    .gallery {
+      display: none; } }
 
 .overview {
   display: flex;
@@ -617,7 +620,7 @@ li.margin-left {
     .sub-description__body--text {
       width: 60%;
       padding: 0 5rem 0 0; }
-    .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mtnce {
+    .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--elect, .sub-description__body--img--civ, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mech, .sub-description__body--img--mtnce {
       height: 275px;
       width: 412px;
       border: 2rem solid var(--color-primary-light);
@@ -627,10 +630,16 @@ li.margin-left {
       background-image: url(/img/bus-shuttle.jpg); }
     .sub-description__body--img--two {
       background-image: url(/img/safety.jpg); }
+    .sub-description__body--img--elect {
+      background-image: url(/img/elect-man.jpg); }
+    .sub-description__body--img--civ {
+      background-image: url(/img/civ-man.jpg); }
     .sub-description__body--img--fac {
       background-image: url(/img/fac-mgt.jpg); }
     .sub-description__body--img--tp {
       background-image: url(/img/coaster-buses.jpg); }
+    .sub-description__body--img--mech {
+      background-image: url(/img/mech-man.jpg); }
     .sub-description__body--img--mtnce {
       background-image: url(/img/maintenance-repair.jpg); }
 

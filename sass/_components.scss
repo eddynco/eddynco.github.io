@@ -237,6 +237,10 @@
       border-radius: 2%;
     }
   }
+
+  @media only screen and (max-width: $bp-smallest) {
+    display: none;
+  }
 }
 
 /////////////////
@@ -791,8 +795,11 @@ li.margin-left {
     &--img {
       &--one,
       &--two,
+      &--elect,
+      &--civ,
       &--fac,
       &--tp,
+      &--mech,
       &--mtnce {
         height: 275px;
         width: 412px;
@@ -809,12 +816,24 @@ li.margin-left {
         background-image: url(/img/safety.jpg);
       }
 
+      &--elect {
+        background-image: url(/img/elect-man.jpg);
+      }
+
+      &--civ {
+        background-image: url(/img/civ-man.jpg);
+      }
+
       &--fac {
         background-image: url(/img/fac-mgt.jpg);
       }
 
       &--tp {
         background-image: url(/img/coaster-buses.jpg);
+      }
+
+      &--mech {
+        background-image: url(/img/mech-man.jpg);
       }
 
       &--mtnce {
