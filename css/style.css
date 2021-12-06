@@ -640,6 +640,10 @@ li.margin-left {
         border: 2rem solid var(--color-primary-light);
         background-size: cover;
         background-repeat: no-repeat; }
+        @media only screen and (max-width: 37.75em) {
+          .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--elect, .sub-description__body--img--civ, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mech, .sub-description__body--img--mtnce {
+            height: 165px;
+            width: 247px; } }
       .sub-description__body--img--one {
         background-image: url(/img/bus-shuttle.jpg); }
       .sub-description__body--img--two {
@@ -722,6 +726,15 @@ li.margin-left {
     line-height: 1; }
   .popup__close:hover {
     color: #7fc9db; }
+
+.flex-parent {
+  margin: 0 3rem;
+  display: flex;
+  width: 1100px;
+  flex-wrap: wrap; }
+
+.flex-item {
+  width: 400px; }
 
 .container {
   max-width: 120rem;
@@ -818,9 +831,13 @@ li.margin-left {
     flex-direction: column; } }
 
 .description__caption {
+  flex-wrap: wrap;
   justify-content: space-between; }
   .description__caption--item {
     flex: 0 0 30.3%; }
+    @media only screen and (max-width: 37.75em) {
+      .description__caption--item {
+        flex: 100%; } }
   .description__caption--image {
     margin: 2rem 0 0 0;
     height: 150px;

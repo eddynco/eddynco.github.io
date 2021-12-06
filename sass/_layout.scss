@@ -79,11 +79,12 @@
 .description__caption {
   padding: 1.5rem 3rem;
   display: flex;
-  
-  @media only screen and (max-width: $bp-small) {
-      padding: 1.5rem 0rem;
 
-    }
+  @media only screen and (max-width: $bp-small) {
+    padding: 1.5rem 0rem;
+  }
+
+
 }
 
 .description {
@@ -119,11 +120,16 @@
 }
 
 .description__caption {
+  flex-wrap: wrap;
   // padding-top: 10rem;
   justify-content: space-between;
 
   &--item {
     flex: 0 0 30.3%;
+
+      @media only screen and (max-width: $bp-small) {
+        flex: 100%;
+      }
   }
 
   &--image {

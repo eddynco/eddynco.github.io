@@ -826,6 +826,11 @@ li.margin-left {
         border: 2rem solid var(--color-primary-light);
         background-size: cover;
         background-repeat: no-repeat;
+
+        @media only screen and (max-width: $bp-small) {
+          height: 165px;
+          width: 247px;
+        }
       }
 
       &--one {
