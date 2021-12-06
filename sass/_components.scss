@@ -511,9 +511,6 @@ li.margin-left {
   &__google:link,
   &__google:visited {
     color: rgb(0, 0, 0);
-
-    &:hover {
-    }
   }
 
   &__google {
@@ -549,6 +546,12 @@ li.margin-left {
       width: 1.75rem;
       height: 1.75rem;
       fill: var(--color-primary);
+    }
+  }
+
+  &__others {
+    @media only screen and (max-width: $bp-small) {
+      display: none;
     }
   }
 
@@ -736,6 +739,7 @@ li.margin-left {
       margin: 0 auto;
       justify-content: space-evenly;
       padding: 1rem 0 0 0;
+      flex-wrap: wrap;
 
       &--exxonmobil {
         width: 200px;

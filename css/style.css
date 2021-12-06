@@ -475,6 +475,9 @@ li.margin-left {
       width: 1.75rem;
       height: 1.75rem;
       fill: var(--color-primary); }
+  @media only screen and (max-width: 37.75em) {
+    .review__others {
+      display: none; } }
   @media only screen and (max-width: 56.25em) {
     .review {
       padding: 2rem;
@@ -584,7 +587,8 @@ li.margin-left {
       display: flex;
       margin: 0 auto;
       justify-content: space-evenly;
-      padding: 1rem 0 0 0; }
+      padding: 1rem 0 0 0;
+      flex-wrap: wrap; }
       .customers__logos--four--exxonmobil {
         width: 200px;
         background-image: url(/img/customers/exxon.png); }
