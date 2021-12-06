@@ -797,12 +797,12 @@ li.margin-left {
 
 .description,
 .description__caption {
-  padding: 1.5rem 3rem;
+  padding: 2rem 3rem;
   display: flex; }
   @media only screen and (max-width: 37.75em) {
     .description,
     .description__caption {
-      padding: 1.5rem 0rem; } }
+      padding: 2rem; } }
 
 .description__item--left {
   width: 60%; }
@@ -839,7 +839,6 @@ li.margin-left {
       .description__caption--item {
         flex: 100%; } }
   .description__caption--image {
-    margin: 2rem 0 0 0;
     height: 150px;
     width: 80%;
     color: #fff;
@@ -854,6 +853,9 @@ li.margin-left {
       position: absolute;
       background: rgba(0, 0, 0, 0.5);
       width: 100%; }
+    @media only screen and (max-width: 37.75em) {
+      .description__caption--image {
+        margin: 2rem auto; } }
 
 .image-one {
   background-image: url(/img/community-planter.jpg); }
