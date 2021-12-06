@@ -250,7 +250,7 @@
     }
   }
 
-  @media only screen and (max-width: $bp-smallest) {
+  @media only screen and (max-width: $bp-small) {
     display: none;
   }
 }
@@ -442,6 +442,9 @@ h2.f-h {
   text-align: justify;
   text-justify: inter-word;
   hyphens: auto;
+  margin: 0 0 0 2rem;
+
+    @media only screen and (max-width: $bp-small) {column-count: 1;}
 
   &__item {
     padding-bottom: 1.5rem;
@@ -816,6 +819,7 @@ li.margin-left {
 
     &--img {
       padding: 2rem 0 0 0;
+      margin: 0 auto;
 
       &--one,
       &--two,

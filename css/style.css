@@ -292,7 +292,7 @@ a {
     @media only screen and (max-width: 37.75em) {
       .gallery__photo {
         border-radius: 2%; } }
-  @media only screen and (max-width: 31.25em) {
+  @media only screen and (max-width: 37.75em) {
     .gallery {
       display: none; } }
 
@@ -411,7 +411,11 @@ h2.f-h {
   column-gap: 4rem;
   text-align: justify;
   text-justify: inter-word;
-  hyphens: auto; }
+  hyphens: auto;
+  margin: 0 0 0 2rem; }
+  @media only screen and (max-width: 37.75em) {
+    .three-columned {
+      column-count: 1; } }
   .three-columned__item {
     padding-bottom: 1.5rem; }
 
@@ -637,7 +641,8 @@ li.margin-left {
           width: 100%;
           padding: 0; } }
     .sub-description__body--img {
-      padding: 2rem 0 0 0; }
+      padding: 2rem 0 0 0;
+      margin: 0 auto; }
       .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--elect, .sub-description__body--img--civ, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mech, .sub-description__body--img--mtnce {
         height: 275px;
         width: 412px;
@@ -822,7 +827,8 @@ li.margin-left {
   height: 250px; }
   @media only screen and (max-width: 37.75em) {
     .description__item--right {
-      width: 100%; } }
+      width: 80%;
+      margin: auto; } }
 
 @media only screen and (max-width: 56.25em) {
   .description {
