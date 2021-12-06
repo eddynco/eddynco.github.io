@@ -138,6 +138,11 @@ a {
 .header__heading {
   text-transform: uppercase;
   letter-spacing: normal; }
+  .header__heading-text--small-name {
+    visibility: hidden; }
+  @media only screen and (max-width: 31.25em) {
+    .header__heading-text--big-name {
+      visibility: hidden; } }
 
 .search {
   flex: 0 0 40%;
@@ -772,6 +777,9 @@ li.margin-left {
 
 .description__item--left {
   width: 60%; }
+  @media only screen and (max-width: 37.75em) {
+    .description__item--left {
+      width: 100%; } }
 
 .description__item--right {
   background-image: url(/img/onshore-2.jpg);
@@ -779,6 +787,9 @@ li.margin-left {
   background-size: cover;
   width: 40%;
   height: 250px; }
+  @media only screen and (max-width: 37.75em) {
+    .description__item--right {
+      width: 100%; } }
 
 @media only screen and (max-width: 56.25em) {
   .description {
@@ -787,7 +798,8 @@ li.margin-left {
 
 @media only screen and (max-width: 37.75em) {
   .description {
-    margin-right: 0; } }
+    margin-right: 0;
+    flex-direction: column; } }
 
 .description__caption {
   justify-content: space-between; }

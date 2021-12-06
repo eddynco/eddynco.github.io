@@ -86,6 +86,9 @@
 
   &__item--left {
     width: 60%;
+    @media only screen and (max-width: $bp-small) {
+      width: 100%;
+    }
   }
 
   &__item--right {
@@ -94,6 +97,9 @@
     background-size: cover;
     width: 40%;
     height: 250px;
+    @media only screen and (max-width: $bp-small) {
+      width: 100%;
+    }
   }
 
   @media only screen and (max-width: $bp-medium) {
@@ -103,6 +109,7 @@
 
   @media only screen and (max-width: $bp-small) {
     margin-right: 0;
+    flex-direction: column;
   }
 }
 
@@ -129,7 +136,7 @@
       opacity: 1;
       bottom: 0;
       padding: 10px;
-      text-align: center;;
+      text-align: center;
       margin: auto;
       position: absolute;
       background: rgba(0, 0, 0, 0.5);

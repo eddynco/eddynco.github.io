@@ -13,8 +13,20 @@
   text-transform: uppercase;
   letter-spacing: normal;
   // margin-left: -2rem;
-}
 
+  &-text {
+    // font-size: 1.4rem;
+    &--small-name {
+      visibility: hidden;
+    }
+
+    &--big-name {
+      @media only screen and (max-width: $bp-smallest) {
+        visibility: hidden;
+      }
+    }
+  }
+}
 /////////////////
 // SEARCH
 
