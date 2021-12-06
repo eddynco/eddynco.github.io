@@ -79,6 +79,11 @@
 .description__caption {
   padding: 1.5rem 3rem;
   display: flex;
+  
+  @media only screen and (max-width: $bp-small) {
+      padding: 1.5rem 0rem;
+
+    }
 }
 
 .description {
