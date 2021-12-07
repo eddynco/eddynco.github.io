@@ -673,6 +673,31 @@ li.margin-left {
       .sub-description__body {
         flex-direction: column; } }
 
+.portfolio {
+  line-height: 5rem; }
+
+@media only screen and (max-width: 56.25em) {
+  .show-pc {
+    display: none; } }
+
+.show-tab {
+  display: none; }
+  @media only screen and (max-width: 56.25em) {
+    .show-tab {
+      display: flex; } }
+  @media only screen and (max-width: 46.875em) {
+    .show-tab {
+      display: none; } }
+  @media only screen and (max-width: 37.75em) {
+    .show-tab {
+      display: none; } }
+
+.show-phone {
+  display: none; }
+  @media only screen and (max-width: 46.875em) {
+    .show-phone {
+      display: flex; } }
+
 .popup {
   height: 100vh;
   width: 100%;
