@@ -118,7 +118,7 @@
   &__icon {
     height: 2.25rem;
     width: 2.25rem;
-    fill: var(--color-grey-dark-2);
+    fill: var(--color-primary);
   }
 }
 
@@ -514,7 +514,8 @@ li.margin-left {
 /////////////////
 // REVIEWS
 .reviews {
-  margin: 5rem 0;
+  margin: 4rem 0;
+  padding: 3rem;
 
   &__google:link,
   &__google:visited {
@@ -569,6 +570,7 @@ li.margin-left {
   }
 
   &__text {
+    font-size: 1.4rem;
     margin-bottom: 0.5rem;
     z-index: 10;
     position: relative;
@@ -715,7 +717,8 @@ li.margin-left {
 // CUSTOMERS
 
 .customers {
-  margin: 5rem 0;
+  margin: 4rem 0;
+  padding: 3rem;
 
   &__text {
     text-align: center;
@@ -758,30 +761,51 @@ li.margin-left {
       &--universal {
         width: 180px;
         background-image: url(/img/customers/universal-energy.png);
+        @media only screen and (max-width: $bp-medium) {
+          width: 144px;
+        }
       }
       &--seaweld {
         width: 180px;
         background-image: url(/img/customers/seaweld.png);
+        @media only screen and (max-width: $bp-medium) {
+          width: 144px;
+        }
       }
       &--willbros {
         width: 90px;
         background-image: url(/img/customers/willbros.png);
+        @media only screen and (max-width: $bp-medium) {
+          width: 72px;
+        }
       }
       &--hydrodive {
         width: 200px;
         background-image: url(/img/customers/hydrodive.jpg);
+        @media only screen and (max-width: $bp-medium) {
+          width: 160px;
+        }
       }
       &--westfield {
         width: 230px;
         background-image: url(/img/customers/westfield.png);
+        @media only screen and (max-width: $bp-medium) {
+          width: 184px;
+        }
       }
       &--daewoo {
         width: 200px;
         background-image: url(/img/customers/daewoo.png);
+        @media only screen and (max-width: $bp-medium) {
+          width: 160px;
+        }
       }
       &--dredging {
         width: 150px;
         background-image: url(/img/customers/dredging.png);
+        @media only screen and (max-width: $bp-medium) {
+          width: 120px;
+        }
       }
     }
   }
@@ -924,11 +948,10 @@ footer {
   text-align: center;
   justify-content: center;
   align-items: flex-end;
-  
+
   @media only screen and (min-width: $bp-medium) {
     display: none;
   }
-
 }
 
 .li {

@@ -202,7 +202,7 @@ a {
   .user-nav__icon {
     height: 2.25rem;
     width: 2.25rem;
-    fill: var(--color-grey-dark-2); }
+    fill: var(--color-primary); }
 
 .side-nav {
   font-size: 1.4rem;
@@ -455,7 +455,8 @@ li.margin-left {
     padding: 0 1rem; }
 
 .reviews {
-  margin: 5rem 0; }
+  margin: 4rem 0;
+  padding: 3rem; }
   .reviews__google:link, .reviews__google:visited {
     color: black; }
   .reviews__google {
@@ -488,6 +489,7 @@ li.margin-left {
       padding: 2rem;
       margin-bottom: 3rem; } }
   .review__text {
+    font-size: 1.4rem;
     margin-bottom: 0.5rem;
     z-index: 10;
     position: relative; }
@@ -571,7 +573,8 @@ li.margin-left {
     border-radius: 5px; }
 
 .customers {
-  margin: 5rem 0; }
+  margin: 4rem 0;
+  padding: 3rem; }
   .customers__text {
     text-align: center;
     padding: 3rem 0 4rem 0; }
@@ -600,24 +603,45 @@ li.margin-left {
       .customers__logos--four--universal {
         width: 180px;
         background-image: url(/img/customers/universal-energy.png); }
+        @media only screen and (max-width: 56.25em) {
+          .customers__logos--four--universal {
+            width: 144px; } }
       .customers__logos--four--seaweld {
         width: 180px;
         background-image: url(/img/customers/seaweld.png); }
+        @media only screen and (max-width: 56.25em) {
+          .customers__logos--four--seaweld {
+            width: 144px; } }
       .customers__logos--four--willbros {
         width: 90px;
         background-image: url(/img/customers/willbros.png); }
+        @media only screen and (max-width: 56.25em) {
+          .customers__logos--four--willbros {
+            width: 72px; } }
       .customers__logos--four--hydrodive {
         width: 200px;
         background-image: url(/img/customers/hydrodive.jpg); }
+        @media only screen and (max-width: 56.25em) {
+          .customers__logos--four--hydrodive {
+            width: 160px; } }
       .customers__logos--four--westfield {
         width: 230px;
         background-image: url(/img/customers/westfield.png); }
+        @media only screen and (max-width: 56.25em) {
+          .customers__logos--four--westfield {
+            width: 184px; } }
       .customers__logos--four--daewoo {
         width: 200px;
         background-image: url(/img/customers/daewoo.png); }
+        @media only screen and (max-width: 56.25em) {
+          .customers__logos--four--daewoo {
+            width: 160px; } }
       .customers__logos--four--dredging {
         width: 150px;
         background-image: url(/img/customers/dredging.png); }
+        @media only screen and (max-width: 56.25em) {
+          .customers__logos--four--dredging {
+            width: 120px; } }
 
 .sub-description-container {
   padding: 0 0 4rem 0; }
@@ -862,15 +886,10 @@ footer {
       width: 100%; } }
 
 .description__item--right {
-  background-image: url(/img/onshore-2.jpg);
-  background-position: center;
-  background-size: cover;
-  width: 40%;
-  height: 250px; }
-  @media only screen and (max-width: 37.75em) {
-    .description__item--right {
-      width: 80%;
-      margin: auto; } }
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+  margin: auto; }
 
 @media only screen and (max-width: 56.25em) {
   .description {
@@ -891,7 +910,7 @@ footer {
       .description__caption--item {
         flex: 100%; } }
   .description__caption--image {
-    height: 150px;
+    height: 180px;
     width: 80%;
     color: #fff;
     position: relative;
