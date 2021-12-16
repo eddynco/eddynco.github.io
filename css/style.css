@@ -920,7 +920,8 @@ footer {
     width: 80%;
     color: #fff;
     position: relative;
-    background-size: cover; }
+    background-size: cover;
+    margin: 1rem auto; }
     .description__caption--image:hover .overlay {
       opacity: 1;
       bottom: 0;
