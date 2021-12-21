@@ -107,6 +107,10 @@
     height: 100%;
     align-items: center;
     display: flex;
+
+    @media only screen and (max-width: $bp-narrow) {
+      padding: 0 1rem;
+    }
   }
 
   & > *:hover {
@@ -191,6 +195,10 @@
     @media only screen and (max-width: $bp-small) {
       flex-direction: column;
       padding: 1.5rem 0.5rem;
+    }
+
+    @media only screen and (max-width: $bp-narrow) {
+      text-align: center;
     }
   }
 
@@ -956,7 +964,7 @@ footer {
 
 .li {
   list-style: none;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 .copyright-mobile {
@@ -966,7 +974,8 @@ footer {
 
 // justify-content: center;
 
-.footer__content--link:link, .footer__content--link:visited {
+.footer__content--link:link,
+.footer__content--link:visited {
   color: var(--color-grey-light-4);
   text-decoration: none;
 }
