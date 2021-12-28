@@ -674,14 +674,15 @@ li.margin-left {
     .sub-description__body--img {
       padding: 2rem 0 0 0;
       margin: 0 auto; }
-      .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--elect, .sub-description__body--img--civ, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mech, .sub-description__body--img--mtnce {
+      .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--elect, .sub-description__body--img--civ, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mech, .sub-description__body--img--mtnce, .sub-description__body--img--pers, .sub-description__body--img--equip, .sub-description__body--img--prts {
         height: 275px;
         width: 412px;
         border: 2rem solid var(--color-primary-light);
         background-size: cover;
-        background-repeat: no-repeat; }
+        background-repeat: no-repeat;
+        background-position: center; }
         @media only screen and (max-width: 37.75em) {
-          .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--elect, .sub-description__body--img--civ, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mech, .sub-description__body--img--mtnce {
+          .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--elect, .sub-description__body--img--civ, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mech, .sub-description__body--img--mtnce, .sub-description__body--img--pers, .sub-description__body--img--equip, .sub-description__body--img--prts {
             height: 165px;
             width: 247px; } }
       .sub-description__body--img--one {
@@ -700,6 +701,12 @@ li.margin-left {
         background-image: url(/img/mech-man.jpg); }
       .sub-description__body--img--mtnce {
         background-image: url(/img/maintenance-repair.jpg); }
+      .sub-description__body--img--pers {
+        background-image: url(/img/hr-mgt.png); }
+      .sub-description__body--img--equip {
+        background-image: url(/img/heavy-equip.jpg); }
+      .sub-description__body--img--prts {
+        background-image: url(/img/ind-mat.jpg); }
     @media only screen and (max-width: 37.75em) {
       .sub-description__body {
         flex-direction: column; } }

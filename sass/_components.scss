@@ -865,12 +865,16 @@ li.margin-left {
       &--fac,
       &--tp,
       &--mech,
-      &--mtnce {
+      &--mtnce,
+      &--pers,
+      &--equip,
+      &--prts {
         height: 275px;
         width: 412px;
         border: 2rem solid var(--color-primary-light);
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center;
 
         @media only screen and (max-width: $bp-small) {
           height: 165px;
@@ -908,6 +912,15 @@ li.margin-left {
 
       &--mtnce {
         background-image: url(/img/maintenance-repair.jpg);
+      }
+      &--pers {
+        background-image: url(/img/hr-mgt.png);
+      }
+      &--equip {
+        background-image: url(/img/heavy-equip.jpg);
+      }
+      &--prts {
+        background-image: url(/img/ind-mat.jpg);
       }
     }
 
