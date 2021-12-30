@@ -513,6 +513,10 @@ li.margin-left {
   padding-left: 6rem;
   // margin: 2rem 0;
 
+  @media only screen and (max-width: $bp-small) {
+    padding-left: 4rem;
+  }
+
   &__item {
     flex: 0 0 50%;
     padding: 0 1rem;
@@ -522,6 +526,7 @@ li.margin-left {
 /////////////////
 // REVIEWS
 .reviews {
+  display: none;
   margin: 4rem 0;
   padding: 3rem;
 
