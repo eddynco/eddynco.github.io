@@ -26,6 +26,8 @@
   --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
 
   --line: 1px solid var(--color-grey-light-2);
+
+  scroll-behavior: smooth;
 }
 
 $bp-largest: 75em; // 1200px
@@ -68,5 +70,4 @@ a {
 }
 
 h2 {
-
 }

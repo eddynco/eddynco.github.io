@@ -52,7 +52,8 @@ Grey dark 3: #999
   --color-grey-light-4: #ccc;
   --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
   --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
-  --line: 1px solid var(--color-grey-light-2); }
+  --line: 1px solid var(--color-grey-light-2);
+  scroll-behavior: smooth; }
 
 html {
   box-sizing: border-box;
@@ -765,6 +766,37 @@ footer {
 
 .two-rem {
   padding: 2rem; }
+
+main {
+  position: relative; }
+
+.scroll-top {
+  position: absolute;
+  /* relative to its positioned <main> parent */
+  top: 120vh;
+  /* starts below the bottom of the screen */
+  bottom: 3rem;
+  /* stops scrolling before the end */
+  right: 2rem;
+  /* offset from right hand side */ }
+
+.scroll-top__link {
+  position: -webkit-sticky;
+  /* for Safari */
+  position: sticky;
+  /* 'relative' until element reaches... */
+  top: 90vh;
+  /* 90% viewport height from the top, when it becomes 'fixed' - until its container toggles it back to 'relative' */
+  text-decoration: none;
+  border-radius: 0.25rem;
+  background-color: var(--color-primary);
+  padding: 1rem;
+  color: white;
+  font-weight: 700;
+  opacity: 0.3; }
+
+.scroll-top__link:hover {
+  opacity: initial; }
 
 .popup {
   height: 100vh;
