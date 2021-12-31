@@ -778,7 +778,9 @@ main {
   bottom: 3rem;
   /* stops scrolling before the end */
   right: 2rem;
-  /* offset from right hand side */ }
+  /* offset from right hand side */
+  text-transform: uppercase;
+  font-size: 1.2rem; }
 
 .scroll-top__link {
   position: -webkit-sticky;
@@ -792,11 +794,12 @@ main {
   background-color: var(--color-primary);
   padding: 1rem;
   color: white;
-  font-weight: 700;
+  font-weight: 400;
   opacity: 0.3; }
 
 .scroll-top__link:hover {
-  opacity: initial; }
+  opacity: initial;
+  box-shadow: var(--shadow-dark); }
 
 .popup {
   height: 100vh;
