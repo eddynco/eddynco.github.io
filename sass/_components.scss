@@ -450,18 +450,34 @@ h2.f-h {
   padding: 3rem 0;
   column-count: 3;
   column-gap: 4rem;
-  text-align: justify;
   text-justify: inter-word;
   hyphens: auto;
   margin: 0 0 0 2rem;
 
   @media only screen and (max-width: $bp-small) {
+    // text-align: justify;
     column-count: 1;
   }
 
   &__item {
     padding-bottom: 1.5rem;
   }
+}
+
+// TWO-COLUMNED
+.two-columned {
+  // padding: 3rem 0;
+  column-count: 2;
+  column-gap: 3rem;
+  text-justify: inter-word;
+
+  & > p {
+    margin: 0 0 1rem;
+  }
+}
+
+.one-half-space {
+  padding: 4rem;
 }
 
 // LIST
@@ -865,6 +881,7 @@ li.margin-left {
 
       &--one,
       &--two,
+      &--three,
       &--elect,
       &--civ,
       &--fac,
@@ -893,6 +910,9 @@ li.margin-left {
 
       &--two {
         background-image: url(/img/safety.jpg);
+      }
+      &--three {
+        background-image: url(/img/drug-and-alcohol.jpg);
       }
 
       &--elect {
@@ -1032,4 +1052,11 @@ main {
 .scroll-top__link:hover {
   opacity: initial;
   box-shadow: var(--shadow-dark);
+}
+
+.slogan {
+  font-weight: 500;
+  color: red;
+  text-transform: uppercase;
+  padding: 1rem 0 0 0;
 }

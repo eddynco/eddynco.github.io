@@ -417,7 +417,6 @@ h2.f-h {
   padding: 3rem 0;
   column-count: 3;
   column-gap: 4rem;
-  text-align: justify;
   text-justify: inter-word;
   hyphens: auto;
   margin: 0 0 0 2rem; }
@@ -426,6 +425,16 @@ h2.f-h {
       column-count: 1; } }
   .three-columned__item {
     padding-bottom: 1.5rem; }
+
+.two-columned {
+  column-count: 2;
+  column-gap: 3rem;
+  text-justify: inter-word; }
+  .two-columned > p {
+    margin: 0 0 1rem; }
+
+.one-half-space {
+  padding: 4rem; }
 
 .list {
   list-style: none;
@@ -679,7 +688,7 @@ li.margin-left {
     .sub-description__body--img {
       padding: 2rem 0 0 0;
       margin: 0 auto; }
-      .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--elect, .sub-description__body--img--civ, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mech, .sub-description__body--img--mtnce, .sub-description__body--img--pers, .sub-description__body--img--equip, .sub-description__body--img--prts {
+      .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--three, .sub-description__body--img--elect, .sub-description__body--img--civ, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mech, .sub-description__body--img--mtnce, .sub-description__body--img--pers, .sub-description__body--img--equip, .sub-description__body--img--prts {
         height: 275px;
         width: 412px;
         border: 2rem solid var(--color-primary-light);
@@ -687,13 +696,15 @@ li.margin-left {
         background-repeat: no-repeat;
         background-position: center; }
         @media only screen and (max-width: 37.75em) {
-          .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--elect, .sub-description__body--img--civ, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mech, .sub-description__body--img--mtnce, .sub-description__body--img--pers, .sub-description__body--img--equip, .sub-description__body--img--prts {
+          .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--three, .sub-description__body--img--elect, .sub-description__body--img--civ, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mech, .sub-description__body--img--mtnce, .sub-description__body--img--pers, .sub-description__body--img--equip, .sub-description__body--img--prts {
             height: 165px;
             width: 247px; } }
       .sub-description__body--img--one {
         background-image: url(/img/bus-shuttle.jpg); }
       .sub-description__body--img--two {
         background-image: url(/img/safety.jpg); }
+      .sub-description__body--img--three {
+        background-image: url(/img/drug-and-alcohol.jpg); }
       .sub-description__body--img--elect {
         background-image: url(/img/elect-man.jpg); }
       .sub-description__body--img--civ {
@@ -800,6 +811,12 @@ main {
 .scroll-top__link:hover {
   opacity: initial;
   box-shadow: var(--shadow-dark); }
+
+.slogan {
+  font-weight: 500;
+  color: red;
+  text-transform: uppercase;
+  padding: 1rem 0 0 0; }
 
 .popup {
   height: 100vh;
