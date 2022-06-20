@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  --color-primary: #378699;
+  --color-primary-light: #b4e0ea;
+  --color-primary-mid: #4ab3cc;
+  --color-white: #fff;
+  --color-black: #000;
+
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc;
+
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+
+  --line: 1px solid var(--color-grey-light-2);
+
+  scroll-behavior: smooth;
+}
+
+$bp-largest: 75em; // 1200px
+$bp-large: 68.75em; // 1100px
+$bp-medium: 56.25em; // 900px
+$bp-medium-small: 46.875em; // 750px
+$bp-small: 37.75em; // 604px
+$bp-smallest: 31.25em; // 500px
+$bp-narrow: 22.625em; // 362px
+
+html {
+  // this defines what 1rem is
+
+  box-sizing: border-box;
+  font-size: 75%; // 1rem = 10px; 10px/16px = 62.5%
+  // 1.4rem = 14px; 14px/16px = 87.5%
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%; // .8rem = 8px; 8px/16px = 50%
+  }
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background-image: linear-gradient(
+    to right bottom,
+    var(--color-primary-mid),
+    var(--color-primary)
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+}

@@ -1,0 +1,23 @@
+canvas {
+  width: 900px;
+  height: 200px;
+  display: block;
+  position: relative;
+  background: transparent;
+  
+  @include respond(phone) {
+    margin: 40px auto;
+    width: 400px;
+    height: 150px;
+  }
+}
+
+.canvas {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}

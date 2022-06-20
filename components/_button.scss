@@ -1,0 +1,36 @@
+.btn {
+  &:link,
+  &:visited {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: none;
+    text-decoration: none;
+    padding: 0.8rem 3rem;
+    display: inline-block;
+    position: relative;
+
+    border: solid $color-white 0.2rem;
+    border-radius: 10rem;
+
+    transition: all 0.2s;
+  }
+
+  &:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 0.5rem 0.1rem rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    transform: translateY(-0.1rem);
+  }
+
+  &-empty {
+    background-color: none;
+    color: $color-white;
+  }
+
+  &-animated {
+    animation: moveInBottom 0.5s ease-out 0.75s;
+    animation-fill-mode: backwards;
+  }
+}

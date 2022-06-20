@@ -1,0 +1,19 @@
+{
+  "name": "Eddynco",
+  "version": "1.0.0",
+  "description": "Eddynco Website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver compile:sass"
+  },
+  "author": "Abasiakan",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.0"
+  }
+}

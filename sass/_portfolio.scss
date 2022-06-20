@@ -1,0 +1,14 @@
+.flex-parent {
+  margin: 0 3rem;
+display: flex;
+width: 1100px;
+flex-wrap: wrap;
+}
+
+.flex-parent > * {
+  // flex-basis: 30%;
+}
+
+.flex-item {
+width: 400px;
+}
