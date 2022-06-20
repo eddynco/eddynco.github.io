@@ -133,7 +133,7 @@ a {
   margin-top: 10rem !important; }
 
 .logo {
-  height: 5.25rem;
+  height: 6.25rem;
   margin-left: 3rem; }
 
 .header__heading {
@@ -292,9 +292,9 @@ a {
     width: 100%;
     display: block;
     transform: scale(1.03);
-    transition: transform 0.5s, opacity 0.5s;
-    opacity: 0.7; }
+    transition: transform 0.5s, opacity 0.5s; }
     .gallery__photo:hover {
+      opacity: 0.9;
       transform: scale(1);
       opacity: 1; }
     @media only screen and (max-width: 37.75em) {
@@ -311,7 +311,7 @@ a {
   align-items: center; }
   .overview__heading {
     margin-right: auto;
-    font-size: 2.25rem;
+    font-size: 1.9rem;
     font-weight: 400;
     letter-spacing: 1px;
     padding: 1.5rem 3rem; }
@@ -321,7 +321,8 @@ a {
         padding: 1.25rem 2rem; } }
   .overview__sub-heading {
     line-height: 3rem;
-    font-weight: 400; }
+    font-weight: 400;
+    font-size: 1.9rem; }
   .overview__location {
     font-size: 1.2rem;
     display: flex;
@@ -334,7 +335,8 @@ a {
 
 .sub-description__heading--text {
   line-height: 3rem;
-  font-weight: 400; }
+  font-weight: 500;
+  font-size: 1.9rem; }
 
 hr {
   color: var(--color-primary);
@@ -346,7 +348,8 @@ hr {
     margin: auto; }
 
 h2.f-h {
-  font-weight: 500; }
+  font-weight: 500;
+  font-size: 1.9rem; }
 
 .btn-inline {
   border: none;
@@ -386,7 +389,7 @@ h2.f-h {
 .paragraph {
   font-family: "Montserrat"; }
   .paragraph-big {
-    font-size: 2.1rem;
+    font-size: 1.9rem;
     font-weight: 300;
     padding-bottom: 3rem; }
   .paragraph-medium {
@@ -461,8 +464,8 @@ h2.f-h {
     mask-size: cover;
     mask-image: url(../img/chevron-thin-right.svg); }
 
-li.margin-left {
-  margin: 0 0 0 1.2rem; }
+li.margin-lf {
+  margin: 0 0 0 2rem; }
 
 .two-col-list {
   list-style: square;
@@ -665,6 +668,30 @@ li.margin-left {
         @media only screen and (max-width: 56.25em) {
           .customers__logos--four--dredging {
             width: 120px; } }
+      .customers__logos--four--nepn {
+        width: 150px;
+        background-image: url(/img/customers/nepn.png); }
+        @media only screen and (max-width: 56.25em) {
+          .customers__logos--four--nepn {
+            width: 120px; } }
+      .customers__logos--four--deltaafrik {
+        width: 184px;
+        background-image: url(/img/customers/deltaafrik.png); }
+        @media only screen and (max-width: 56.25em) {
+          .customers__logos--four--deltaafrik {
+            width: 120px; } }
+      .customers__logos--four--aksgov {
+        width: 150px;
+        background-image: url(/img/customers/aksgov.png); }
+        @media only screen and (max-width: 56.25em) {
+          .customers__logos--four--aksgov {
+            width: 120px; } }
+      .customers__logos--four--total {
+        width: 150px;
+        background-image: url(/img/customers/total.png); }
+        @media only screen and (max-width: 56.25em) {
+          .customers__logos--four--total {
+            width: 120px; } }
 
 .sub-description-container {
   padding: 0 0 4rem 0; }
@@ -695,7 +722,7 @@ li.margin-left {
         display: flex;
         align-items: center;
         justify-content: center; }
-      .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--three, .sub-description__body--img--elect, .sub-description__body--img--civ, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mech, .sub-description__body--img--mtnce, .sub-description__body--img--pers, .sub-description__body--img--equip, .sub-description__body--img--prts {
+      .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--three, .sub-description__body--img--elect, .sub-description__body--img--civ, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mech, .sub-description__body--img--mtnce, .sub-description__body--img--pers, .sub-description__body--img--equip, .sub-description__body--img--manp, .sub-description__body--img--prts {
         height: 275px;
         width: 412px;
         border: 2rem solid var(--color-primary-light);
@@ -703,37 +730,41 @@ li.margin-left {
         background-repeat: no-repeat;
         background-position: center; }
         @media only screen and (max-width: 46.875em) {
-          .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--three, .sub-description__body--img--elect, .sub-description__body--img--civ, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mech, .sub-description__body--img--mtnce, .sub-description__body--img--pers, .sub-description__body--img--equip, .sub-description__body--img--prts {
+          .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--three, .sub-description__body--img--elect, .sub-description__body--img--civ, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mech, .sub-description__body--img--mtnce, .sub-description__body--img--pers, .sub-description__body--img--equip, .sub-description__body--img--manp, .sub-description__body--img--prts {
             height: 206px;
             width: 309px; } }
         @media only screen and (max-width: 37.75em) {
-          .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--three, .sub-description__body--img--elect, .sub-description__body--img--civ, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mech, .sub-description__body--img--mtnce, .sub-description__body--img--pers, .sub-description__body--img--equip, .sub-description__body--img--prts {
+          .sub-description__body--img--one, .sub-description__body--img--two, .sub-description__body--img--three, .sub-description__body--img--elect, .sub-description__body--img--civ, .sub-description__body--img--fac, .sub-description__body--img--tp, .sub-description__body--img--mech, .sub-description__body--img--mtnce, .sub-description__body--img--pers, .sub-description__body--img--equip, .sub-description__body--img--manp, .sub-description__body--img--prts {
             height: 165px;
             width: 247px; } }
       .sub-description__body--img--one {
-        background-image: url(/img/bus-shuttle.jpg); }
+        background-image: url(/img/bus-shutt.jpg); }
       .sub-description__body--img--two {
         background-image: url(/img/safety.jpg); }
       .sub-description__body--img--three {
-        background-image: url(/img/drug-and-alcohol.jpg); }
+        background-image: url(/img/alcohol-policy.jpg);
+        width: 400px;
+        height: 400px; }
       .sub-description__body--img--elect {
-        background-image: url(/img/elect-man.jpg); }
+        background-image: url(/img/elect-inst600.jpg); }
       .sub-description__body--img--civ {
-        background-image: url(/img/civ-man.jpg); }
+        background-image: url(/img/civil-eng.jpg); }
       .sub-description__body--img--fac {
         background-image: url(/img/fac-mgt.jpg); }
       .sub-description__body--img--tp {
-        background-image: url(/img/coaster-buses.jpg); }
+        background-image: url(/img/coaster-bus-drivers.jpg); }
       .sub-description__body--img--mech {
-        background-image: url(/img/mech-man.jpg); }
+        background-image: url(/img/mech-men2.jpg); }
       .sub-description__body--img--mtnce {
-        background-image: url(/img/maintenance-repair.jpg); }
+        background-image: url(/img/mech-men-hands.jpg); }
       .sub-description__body--img--pers {
-        background-image: url(/img/hr-mgt.png); }
+        background-image: url(/img/hr-mgnt.jpg); }
       .sub-description__body--img--equip {
-        background-image: url(/img/heavy-equip.jpg); }
+        background-image: url(/img/pexels-ivan.jpg); }
+      .sub-description__body--img--manp {
+        background-image: url(/img/man-pi.jpg); }
       .sub-description__body--img--prts {
-        background-image: url(/img/ind-mat.jpg); }
+        background-image: url(/img/tools.jpg); }
     @media only screen and (max-width: 46.875em) {
       .sub-description__body {
         flex-direction: column; } }
@@ -922,7 +953,7 @@ main {
   z-index: 99;
   box-shadow: var(--shadow-light);
   font-size: 1.4rem;
-  height: 7rem;
+  height: 8.5rem;
   background-color: var(--color-white);
   border-bottom: var(--line);
   display: flex;
@@ -952,7 +983,7 @@ main {
   flex: 1; }
 
 .detail {
-  font-size: 1.4rem;
+  font-size: 1.9rem;
   padding: 3rem 3rem 0 3rem;
   background-color: var(--color-white);
   border-bottom: var(--line); }
@@ -1010,6 +1041,7 @@ main {
     background-size: cover;
     margin: 1rem auto; }
     .description__caption--image:hover .overlay {
+      font-size: 1.4rem;
       opacity: 1;
       bottom: 0;
       padding: 10px;
@@ -1023,41 +1055,41 @@ main {
         margin: 2rem auto; } }
 
 .image-one {
-  background-image: url(/img/community-planter.jpg); }
+  background-image: url(/img/comm-serv.jpg); }
 
 .image-two {
   background-image: url(/img/helmet.jpg); }
 
 .image-three {
-  background-image: url(/img/safety-man.jpg); }
+  background-image: url(/img/mech-men-helm.jpg); }
 
 .img-serv-1 {
-  background-image: url(/img/elect-man.jpg); }
+  background-image: url(/img/pexels-field-engineer.jpg); }
 
 .img-serv-2 {
-  background-image: url(/img/mech-man.jpg); }
+  background-image: url(/img/mech-men.jpg); }
 
 .img-serv-3 {
-  background-image: url(/img/civ-man.jpg); }
+  background-image: url(/img/civil-eng.jpg); }
 
 .img-serv-4 {
-  background-image: url(/img/hr-mgt.png);
+  background-image: url(/img/hr-mgnt.jpg);
   background-position: center; }
 
 .img-serv-5 {
-  background-image: url(/img/heavy-equip.jpg); }
+  background-image: url(/img/pexels-ivan.jpg); }
 
 .img-serv-6 {
-  background-image: url(/img/ind-mat.jpg); }
+  background-image: url(/img/tools.jpg); }
 
 .img-serv-7 {
-  background-image: url(/img/coaster-buses.jpg); }
+  background-image: url(/img/coaster-bus-drivers.jpg); }
 
 .img-serv-8 {
   background-image: url(/img/fac-mgt.jpg); }
 
 .img-serv-9 {
-  background-image: url(/img/maintenance-repair.jpg); }
+  background-image: url(/img/maintenance-repair-hands.jpg); }
 
 .overlay {
   opacity: 0; }

@@ -19,7 +19,7 @@
   box-shadow: var(--shadow-light);
 
   font-size: 1.4rem;
-  height: 7rem;
+  height: 8.5rem;
   background-color: var(--color-white);
   border-bottom: var(--line);
 
@@ -60,7 +60,7 @@
 }
 
 .detail {
-  font-size: 1.4rem;
+  font-size: 1.9rem;
 
   padding: 3rem 3rem 0 3rem;
   background-color: var(--color-white);
@@ -141,6 +141,7 @@
     margin: 1rem auto;
     
     &:hover .overlay {
+      font-size: 1.4rem;
       opacity: 1;
       bottom: 0;
       padding: 10px;
@@ -158,7 +159,7 @@
 }
 
 .image-one {
-  background-image: url(/img/community-planter.jpg);
+  background-image: url(/img/comm-serv.jpg);
 }
 
 .image-two {
@@ -166,44 +167,44 @@
 }
 
 .image-three {
-  background-image: url(/img/safety-man.jpg);
+  background-image: url(/img/mech-men-helm.jpg);
 }
 
 // SERVICES IMAGES
 .img-serv-1 {
-  background-image: url(/img/elect-man.jpg);
+  background-image: url(/img/pexels-field-engineer.jpg);
 }
 
 .img-serv-2 {
-  background-image: url(/img/mech-man.jpg);
+  background-image: url(/img/mech-men.jpg);
 }
 
 .img-serv-3 {
-  background-image: url(/img/civ-man.jpg);
+  background-image: url(/img/civil-eng.jpg);
 }
 
 .img-serv-4 {
-  background-image: url(/img/hr-mgt.png);
+  background-image: url(/img/hr-mgnt.jpg);
   background-position: center;
 }
 
 .img-serv-5 {
-  background-image: url(/img/heavy-equip.jpg);
+  background-image: url(/img/pexels-ivan.jpg);
 }
 
 .img-serv-6 {
-  background-image: url(/img/ind-mat.jpg);
+  background-image: url(/img/tools.jpg);
 }
 
 .img-serv-7 {
-  background-image: url(/img/coaster-buses.jpg);
+  background-image: url(/img/coaster-bus-drivers.jpg);
 }
 .img-serv-8 {
   background-image: url(/img/fac-mgt.jpg);
 }
 
 .img-serv-9 {
-  background-image: url(/img/maintenance-repair.jpg);
+  background-image: url(/img/maintenance-repair-hands.jpg);
 }
 
 .overlay {

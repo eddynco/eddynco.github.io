@@ -2,7 +2,7 @@
 // LOGO
 
 .logo {
-  height: 5.25rem;
+  height: 6.25rem;
   margin-left: 3rem;
   // display: none;
 }
@@ -249,9 +249,9 @@
 
     transform: scale(1.03);
     transition: transform 0.5s, opacity 0.5s;
-    opacity: 0.7;
-
+    
     &:hover {
+      opacity: 0.9;
       transform: scale(1);
       opacity: 1;
     }
@@ -278,7 +278,7 @@
     // flex: 1;
     margin-right: auto;
 
-    font-size: 2.25rem;
+    font-size: 1.9rem;
     font-weight: 400;
     // text-transform: uppercase;
     letter-spacing: 1px;
@@ -296,6 +296,7 @@
     // text-align: center;
     line-height: 3rem;
     font-weight: 400;
+    font-size: 1.9rem;
   }
 
   &__location {
@@ -317,7 +318,8 @@
   // padding: 1rem 0;
   // text-align: center;
   line-height: 3rem;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 1.9rem;
 }
 ///////////////////
 //HORIZONTAL LINE
@@ -337,6 +339,7 @@ hr {
 
 h2.f-h {
   font-weight: 500;
+  font-size: 1.9rem;
 }
 
 /////////////////
@@ -403,7 +406,7 @@ h2.f-h {
   font-family: "Montserrat";
 
   &-big {
-    font-size: 2.1rem;
+    font-size: 1.9rem;
     font-weight: 300;
     padding-bottom: 3rem;
   }
@@ -523,8 +526,8 @@ h2.f-h {
   }
 }
 
-li.margin-left {
-  margin: 0 0 0 1.2rem;
+li.margin-lf {
+  margin: 0 0 0 2rem;
 }
 
 .two-col-list {
@@ -838,6 +841,31 @@ li.margin-left {
         width: 150px;
         background-image: url(/img/customers/dredging.png);
         @media only screen and (max-width: $bp-medium) {
+          width: 120px;}
+        }
+      &--nepn {
+        width: 150px;
+        background-image: url(/img/customers/nepn.png);
+        @media only screen and (max-width: $bp-medium) {
+          width: 120px;}
+        }
+      &--deltaafrik {
+        width: 184px;
+        background-image: url(/img/customers/deltaafrik.png);
+        @media only screen and (max-width: $bp-medium) {
+          width: 120px;}
+        }
+      &--aksgov {
+        width: 150px;
+        background-image: url(/img/customers/aksgov.png);
+        @media only screen and (max-width: $bp-medium) {
+          width: 120px;
+        }
+      }
+      &--total {
+        width: 150px;
+        background-image: url(/img/customers/total.png);
+        @media only screen and (max-width: $bp-medium) {
           width: 120px;
         }
       }
@@ -902,6 +930,7 @@ li.margin-left {
       &--mtnce,
       &--pers,
       &--equip,
+      &--manp,
       &--prts {
         height: 275px;
         width: 412px;
@@ -922,22 +951,24 @@ li.margin-left {
       }
 
       &--one {
-        background-image: url(/img/bus-shuttle.jpg);
+        background-image: url(/img/bus-shutt.jpg);
       }
 
       &--two {
         background-image: url(/img/safety.jpg);
       }
       &--three {
-        background-image: url(/img/drug-and-alcohol.jpg);
+        background-image: url(/img/alcohol-policy.jpg);
+        width: 400px;
+        height: 400px;
       }
 
       &--elect {
-        background-image: url(/img/elect-man.jpg);
+        background-image: url(/img/elect-inst600.jpg);
       }
 
       &--civ {
-        background-image: url(/img/civ-man.jpg);
+        background-image: url(/img/civil-eng.jpg);
       }
 
       &--fac {
@@ -945,24 +976,27 @@ li.margin-left {
       }
 
       &--tp {
-        background-image: url(/img/coaster-buses.jpg);
+        background-image: url(/img/coaster-bus-drivers.jpg);
       }
 
       &--mech {
-        background-image: url(/img/mech-man.jpg);
+        background-image: url(/img/mech-men2.jpg);
       }
 
       &--mtnce {
-        background-image: url(/img/maintenance-repair.jpg);
+        background-image: url(/img/mech-men-hands.jpg);
       }
       &--pers {
-        background-image: url(/img/hr-mgt.png);
+        background-image: url(/img/hr-mgnt.jpg);
       }
       &--equip {
-        background-image: url(/img/heavy-equip.jpg);
+        background-image: url(/img/pexels-ivan.jpg);
+      }
+      &--manp {
+        background-image: url(/img/man-pi.jpg);
       }
       &--prts {
-        background-image: url(/img/ind-mat.jpg);
+        background-image: url(/img/tools.jpg);
       }
     }
 
@@ -1024,6 +1058,7 @@ footer {
 }
 
 .li {
+
   list-style: none;
   padding: 0.5rem 0;
 }
