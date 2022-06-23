@@ -738,7 +738,7 @@ li.margin-lf {
             height: 165px;
             width: 247px; } }
       .sub-description__body--img--one {
-        background-image: url(/img/bus-shutt.jpg); }
+        background-image: url(/img/bus-shuttt.jpg); }
       .sub-description__body--img--two {
         background-image: url(/img/safety.jpg); }
       .sub-description__body--img--three {
@@ -1055,7 +1055,7 @@ main {
         margin: 2rem auto; } }
 
 .image-one {
-  background-image: url(/img/comm-serv.jpg); }
+  background-image: url(/img/bus-shuttt.jpg); }
 
 .image-two {
   background-image: url(/img/helmet.jpg); }
