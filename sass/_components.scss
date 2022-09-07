@@ -961,6 +961,11 @@ li.margin-lf {
         background-image: url(/img/alcohol-policy.jpg);
         width: 400px;
         height: 400px;
+
+        @media only screen and (max-width: $bp-medium-small) {
+          width: 300px;
+          height: 300px;
+        }
       }
 
       &--elect {
@@ -1009,6 +1014,69 @@ li.margin-lf {
         width: 100%;
       }
     }
+  }
+}
+
+.body-noscroll {
+  overflow: hidden;
+}
+
+#modal {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 99;
+  animation-name: modalopen;
+  animation-duration: 1s;
+
+  & .reveal {
+    display: block;
+  }
+
+  & span {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+
+&--img{
+    background-image: url(/img/alcohol-policy-non-neg.jpg);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @media only screen and (max-width: $bp-medium-small) {
+      width: 300px;
+      height: 300px;
+    }
+}
+}
+
+@keyframes modalopen{
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
 
